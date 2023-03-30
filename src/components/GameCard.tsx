@@ -4,9 +4,11 @@ import { Game, Platform } from "../hooks/useGames";
 import getCroppedImageUrl from "../services/image-url";
 import CriticScore from "./CriticScore";
 import PlatFormIconList from "./PlatformIconList";
+
 interface Props {
   game: Game;
 }
+
 const GameCard = ({ game }: Props) => {
   return (
     <Card>
